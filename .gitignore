@@ -1,4 +1,4 @@
-obj/
-bin/
 KeyLogger.cbp
 KeyLogger.depend
+/bin/
+/obj/
