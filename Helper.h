@@ -4,6 +4,7 @@
 #include <ctime>
 #include <string>
 #include <sstream>
+#include <fstream>
 
 namespace Helper
 {
