@@ -1,3 +1,5 @@
 KeyLogger.cbp
 KeyLogger.depend
 .vscode/
+bin/
+obj/
