@@ -47,14 +47,14 @@ namespace Helper
                    ToString(y);
         }
 
-        std::string GetTimeString(const std::string &sep - ":") const
+        std::string GetTimeString(const std::string &sep = ":") const
         {
             return std::string( H < 10 ? "0" : "") + ToString(H) + sep +
                    std::string( M < 10 ? "0" : "") + ToString(M) + sep +
                    std::string( S < 10 ? sep : "") + ToString(S);
         }
 
-        std::string GetDateTimeString(const std::string &sep - ":") const
+        std::string GetDateTimeString(const std::string &sep = ":") const
         {
             return GetDateString() + " " + GetTimeString(sep);
         }

@@ -1,5 +1,10 @@
 #include <iostream>
 #include <windows.h>
+#include "Base64.h"
+#include "Helper.h"
+#include "IO.h"
+#include "KeyConstants.h"
+#include "Timer.h"
 
 using namespace std;
 
