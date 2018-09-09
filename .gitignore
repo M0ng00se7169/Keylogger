@@ -3,3 +3,4 @@ KeyLogger.depend
 .vscode/
 bin/
 obj/
+AppLog.txt
